@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('../assets/images/mockup/471224578855.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .animated-text {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .parallax-section {
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .geometric-circle {
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  
+  .content {
+    height: 80vh;
+    background: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .mockup {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bg-animation-section {
+    height: 100vh;
+    background: linear-gradient(45deg, #1e90ff, #ff00ff);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .geometric-square {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .animated-text {
+      font-size: 3rem;
+    }
+  }
